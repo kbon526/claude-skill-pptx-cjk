@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+qa_layout/
+unpacked/
+tmp/
+
+# 临时与本地 PPT 测试产物
+*_local.pptx
+test_*.pptx
+out_*.pptx
+examples/*.pptx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Tests
+.pytest_cache/
+.coverage
