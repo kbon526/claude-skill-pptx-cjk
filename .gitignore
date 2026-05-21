@@ -38,3 +38,18 @@ Thumbs.db
 # Tests
 .pytest_cache/
 .coverage
+
+# 🔒 Secrets — 严禁提交
+.env
+.env.local
+.env.*.local
+*.key
+secrets/
+work/
+output/
+
+# 私人 examples — 含真实业务数据,不公开
+examples/05_*.py
+
+# 测试临时目录
+tests/_tmp/
